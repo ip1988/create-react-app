@@ -1,0 +1,12 @@
+los archivos de barril son aquellos archivos index que utilizamos como react para tener almacenados todas las importaciones
+de los componentes en un archivo
+supongmos que tenemos 5 componentes y en el archivo index.js de esa carpera 
+
+quedaria algo como 
+
+ export * from './AddCategory';
+ export * from './GifGrid'
+
+
+ y despues desde ese mismo archivo index podemos importar en los demas archivos nuestro componentes sin tener que hacer
+ un choclo de importaciones
